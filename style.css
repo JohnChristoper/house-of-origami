@@ -186,7 +186,7 @@ body > p {
 
 section {
     background-color: var(--lighttan);
-    height: 1000px;
+    height: 730px;
 }
 
 .section-head {
@@ -264,12 +264,30 @@ section {
     margin: 0%;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--tan);
+    height: 80px;
+}
 
+footer img {
+    margin: 0px 15px 0px 30px;
+    width: 200px;
+}
 
+footer p:nth-child(2) {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 11px;
+    margin: 0%;
+}
 
-
-
-
+footer p:last-child {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 11px;
+    margin: 0px 0px 0px 650px;
+}
 
 
 
