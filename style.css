@@ -201,6 +201,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: 'Roboto', 'sans-serif';
     gap: 10px;
     width: 860px;
     margin-left: 194px;
@@ -208,23 +209,60 @@ section {
 
 .skill-container div {
     display: flex;
-    align-items: center;
     flex-direction: column;
     background-color: white;
-    padding-top: 10px;
+    padding: 10px 0px 0px 10px;
     border-radius: 10px;
+    height: 470px;
 }
 
 .skill-container img {
     border-radius: 10px;
-    width: 90%;
+    width: 95%;
     height: 180px;
 }
 
 .skill-container > div > div {
+    padding: 0%;
     width: 90%;
 }
 
+.skill-container > div > div > p:first-child{
+    text-align: center;
+    margin: 15px 0px 12px;
+}
+
+.skill-container > div > div > p:last-child{
+    font-size: 14px;
+}
+
+.skill-container span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--darkpink);
+    border-radius: 10px;
+    margin: 0px 0px 25px;
+    width: 85px;
+    height: 140px;
+}
+
+.skill-container span p:first-child {
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    margin: 0%;
+    font-size: 23px;
+}
+
+.skill-container span p:last-child {
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0%;
+}
 
 
 
